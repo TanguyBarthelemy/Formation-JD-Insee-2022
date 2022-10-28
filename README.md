@@ -12,7 +12,7 @@ Une fois le répertoire sur votre ordinateur :
  * Concernant le code, je conseille fortement d'ouvrir le projet *via* Rstudio en ouvrant le fichier **Formations-JD-Insee-2022.Rproj**.
  * Sinon (dans le cas où vous ouvrez les fichiers R sans avoir au préalable ouvert le .Rproj), il faut penser à changer la localisation du dossier de travail (le working directory). Ainsi, il faut rajouter en début de code :
 ```r
-setwd("C:/Users/Tanguy/Documents/.../Votre_chemin/...Formations-JD-Insee-2022")
+setwd("C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-2022")
 ```
 ⚠️ Sans oublier de remplacer les `\` par des `/` !
 
@@ -23,7 +23,7 @@ Si vous voulez **utiliser et tester les WS fournis**, il faut faire tourner le p
 Le seul argument à changer est la variable `chemin_du_dossier` à la ligne 9 :
 ```r
 # Définition des paramètres ----------------------------------------------------
-chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/...Formations-JD-Insee-2022"
+chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-2022"
 ```
 Une fois le chemin changé, vous pouvez faire tourner le programme en entier (`Ctrl + A` puis `Ctrl + Enter`).
 
