@@ -352,6 +352,11 @@ tail(total_ws_df)
 
 # Export des données sous Excel ------------------------------------------------
 
+# Créé le dossier output
+if (!file.exists("output")) {
+    dir.create(path = "./output/")
+}
+
 ## Premier export : un fichier par WS ------------------------------------------
 
 for (i in summary_ws$num_ws) {

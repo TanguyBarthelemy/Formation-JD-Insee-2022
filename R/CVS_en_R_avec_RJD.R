@@ -322,6 +322,11 @@ s_x11(model_sa_x13_6)
 
 # Enregistrement spec ----------------------------------------------------------
 
+# Créé le dossier output
+if (!file.exists("output")) {
+    dir.create(path = "./output/")
+}
+
 # On peut enregistrer puis recharger un spec en .Rdata
 
 # Enregistrement
