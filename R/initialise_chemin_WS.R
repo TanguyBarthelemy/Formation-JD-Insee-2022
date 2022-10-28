@@ -6,9 +6,9 @@
 
 # Définition des paramètres ----------------------------------------------------
 
-chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/...Formations-JD-Insee-2022"
+chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-2022-main/"
 
-chemin_donnees <- paste0(chemin_du_dossier, "/data/IPI_nace4.csv")
+chemin_donnees <- paste0(chemin_du_dossier, "data/IPI_nace4.csv")
 
 changer_chemin_WS <- function(new_chemin_donnees, new_chemin_xml) {
     # Transformation des chemins ---------------------------------------------------
@@ -19,7 +19,7 @@ changer_chemin_WS <- function(new_chemin_donnees, new_chemin_xml) {
     ch_donnees_JD <- gsub(x = ch_donnees_JD, pattern = "/", replacement = "%5C")
     
     # lecture fichier xml 
-    anc_xml <- readLines(ch_fic_xml)
+    anc_xml <- readLines(new_chemin_xml)
     
     # on recupere les noms de series dans fichier donnees
     donnees <- read.csv2(chemin_donnees)
@@ -45,13 +45,13 @@ changer_chemin_WS <- function(new_chemin_donnees, new_chemin_xml) {
 # Il y a 4 WS à modifier :
 
 changer_chemin_WS(new_chemin_donnees = chemin_donnees, 
-                  new_chemin_xml = paste0(chemin_du_dossier, "/WS/WS_ref/IPI_nace4.csv"))
+                  new_chemin_xml = paste0(chemin_du_dossier, "WS/WS_ref/SAProcessing/SAProcessing-1.xml"))
 
 changer_chemin_WS(new_chemin_donnees = chemin_donnees, 
-                  new_chemin_xml = paste0(chemin_du_dossier, "/WS/WS_AO_current_approach/IPI_nace4.csv"))
+                  new_chemin_xml = paste0(chemin_du_dossier, "WS/WS_AO_current_approach/SAProcessing/SAProcessing-1.xml"))
 
 changer_chemin_WS(new_chemin_donnees = chemin_donnees, 
-                  new_chemin_xml = paste0(chemin_du_dossier, "/WS/WS_fixed_model/IPI_nace4.csv"))
+                  new_chemin_xml = paste0(chemin_du_dossier, "WS/WS_fixed_model/SAProcessing/SAProcessing-1.xml"))
 
 changer_chemin_WS(new_chemin_donnees = chemin_donnees, 
-                  new_chemin_xml = paste0(chemin_du_dossier, "/WS/WS_concurrent/IPI_nace4.csv"))
+                  new_chemin_xml = paste0(chemin_du_dossier, "WS/WS_concurrent/SAProcessing/SAProcessing-1.xml"))
