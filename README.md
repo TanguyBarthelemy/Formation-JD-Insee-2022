@@ -29,4 +29,8 @@ Une fois le chemin changé, vous pouvez faire tourner le programme en entier (`C
 
 Si vous souhaiter uniquement utiliser vos données la section précédente n'est pas utile.
 
+## Les packages à installer
+
+Il faut installer les packages JDCruncher, RJDemetra, rjwsacruncher, rjdmarkdown, ggdemetra, gridExtra, dplyr, zoo, tydir, magrittr, forecast, dygraphs, ggplot2, xlsx, waldo
+
 
