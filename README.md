@@ -31,6 +31,10 @@ Si vous souhaiter uniquement utiliser vos données la section précédente n'est
 
 ## Les packages à installer
 
-Il faut installer les packages JDCruncher, RJDemetra, rjwsacruncher, rjdmarkdown, ggdemetra, gridExtra, dplyr, zoo, tydir, magrittr, forecast, dygraphs, ggplot2, xlsx, waldo
+Il faut installer les packages JDCruncher, RJDemetra, rjwsacruncher, rjdmarkdown, ggdemetra, gridExtra, dplyr, zoo, tidyr, magrittr, forecast, dygraphs, ggplot2, xlsx, waldo, XLConnect, XML, remotes
 
-
+Voilà les codes :
+```r
+install.packages(c('RJDemetra', 'rjwsacruncher', 'rjdmarkdown', 'ggdemetra', 'gridExtra', 'dplyr', 'zoo', 'tidyr', 'magrittr', 'forecast', 'dygraphs', 'ggplot2', 'xlsx', 'waldo', 'XLConnect', 'XML', 'remotes'))
+remotes::install_github("InseeFr/JDCruncheR")
+```

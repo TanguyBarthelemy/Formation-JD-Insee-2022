@@ -22,18 +22,24 @@ path_matrix <- "./WS/WS_concurrent/Output/SAProcessing-1/demetra_m.csv"
 
 # Paramètres et options du cruncher --------------------------------------------
 
-help(cruncher_and_param)
+# Si les fonctions suivantes ne renvoient rien ou que cela ne correspond pas 
+#   à un chemin valide ou au bon chemin, il faut compléter les options
 
-# Si les fonctions suivantes ne renvoient rien, il faut compléter les options
+# Chemin du cruncher (dossier contenant le fichier .bat)
 getOption("cruncher_bin_directory")
-# Matrice de qualité
-getOption("default_matrix_item")
-# Séries issues de la décomposition
-getOption("default_tsmatrix_series")
-
 # Exemple d'option à poser :
 # options(cruncher_bin_directory = "Y:/Logiciels/jwsacruncher-2.2.0/jdemetra-cli-2.2.0/bin")
+# options(cruncher_bin_directory = "Y:/Logiciels/JDemetraplus/jwsacruncher-2.2.3/bin/")
 # options(cruncher_bin_directory = "C:/Users/UTZK0M/Software/jwsacruncher-2.2.3-bin/bin")
+
+# Séries issues de la décomposition
+getOption("default_tsmatrix_series")
+# Exemple d'option à poser :
+# options(default_tsmatrix_series = c("y","sa","sa_f","s","s_f","ycal","cal","cal_f","d10","d10a"))
+
+# Matrice de qualité
+getOption("default_matrix_item")
+# Exemple d'option à poser :
 # options(default_matrix_item = c("period", "span.start", "span.end", "span.n", "span.missing",
 #                                 "espan.start", "espan.end", "espan.n", "log", "adjust", "regression.lp",
 #                                 "regression.ntd", "regression.nmh", "regression.td-derived",
@@ -109,13 +115,6 @@ getOption("default_tsmatrix_series")
 #                                 "diagnostics.residual trading days tests.f-test on i (td):2",
 #                                 "diagnostics.quality"
 # ))
-# options(default_tsmatrix_series = c("y","sa","sa_f","s","s_f","ycal","cal","cal_f","d10","d10a"))
-
-path_jwsacruncher <- "C:/Users/UTZK0M/Software/jwsacruncher-2.2.3-bin/bin"
-options(cruncher_bin_directory = path_jwsacruncher)
-
-# Cruncher pour générer les output
-help(cruncher_and_param)
 
 
 # Lecture et traitement des données --------------------------------------------
