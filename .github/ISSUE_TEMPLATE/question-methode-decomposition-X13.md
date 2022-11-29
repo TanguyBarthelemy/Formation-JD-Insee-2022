@@ -1,6 +1,6 @@
 ---
-name: Créer une question
-about: Décomposition X11/X13
+name: [Question] Décomposition X11/X13
+about: Créer une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

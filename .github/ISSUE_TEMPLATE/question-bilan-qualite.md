@@ -1,6 +1,6 @@
 ---
-name: Créer une question
-about: Bilan qualité
+name: [Question] Bilan qualité
+about: Créer une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

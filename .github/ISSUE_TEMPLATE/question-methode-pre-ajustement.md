@@ -1,6 +1,6 @@
 ---
-name: Créer une question
-about: Pré-ajustement et modèle REG-ARIMA
+name: [Question] Pré-ajustement et modèle REG-ARIMA
+about: Créer une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
