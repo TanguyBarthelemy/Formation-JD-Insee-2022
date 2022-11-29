@@ -1,6 +1,6 @@
 ---
 name: Créer une question
-about: Interrogation X13
+about: 
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
