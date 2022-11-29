@@ -1,6 +1,6 @@
 ---
 name: Créer une question
-about: Désaisonnalisation
+about: Logiciel JDemetra+
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
