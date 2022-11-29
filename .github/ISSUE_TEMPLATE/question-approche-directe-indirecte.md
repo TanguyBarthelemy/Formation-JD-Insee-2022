@@ -1,6 +1,6 @@
 ---
 name: Méthode de CVS directe ou indirecte
-about: Poser une question
+about: Créer une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
