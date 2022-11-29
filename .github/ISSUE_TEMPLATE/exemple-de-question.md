@@ -1,6 +1,6 @@
 ---
 name: Créer une question
-about: 
+about: Désaisonnalisation
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
