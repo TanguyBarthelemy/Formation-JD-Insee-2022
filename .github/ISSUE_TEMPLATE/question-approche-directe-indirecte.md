@@ -1,5 +1,5 @@
 ---
-name: [Question] Méthode de CVS directe ou indirecte
+name: Méthode de CVS directe ou indirecte
 about: Créer une question
 title: "[Question]"
 labels: ''
