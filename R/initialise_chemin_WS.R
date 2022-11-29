@@ -17,6 +17,7 @@ changer_chemin_WS <- function(new_chemin_donnees, new_chemin_xml) {
     ch_donnees_JD <- new_chemin_donnees
     ch_donnees_JD <- gsub(x = ch_donnees_JD, pattern = ":", replacement = "%3A")
     ch_donnees_JD <- gsub(x = ch_donnees_JD, pattern = "/", replacement = "%5C")
+    ch_donnees_JD <- gsub(x = ch_donnees_JD, pattern = " ", replacement = "+")
     
     # lecture fichier xml 
     anc_xml <- readLines(new_chemin_xml)

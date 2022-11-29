@@ -24,7 +24,8 @@ ch_fic_xml
 # mise au format JD+ du chemin de donnees 
 ch_donnees_JD <- ch_donnees |> 
     gsub(pattern = ":", replacement = "%3A") |> 
-    gsub(pattern = "/", replacement = "%5C")
+    gsub(pattern = "/", replacement = "%5C") |> 
+    gsub(pattern = " ", replacement = "+")
 ch_donnees_JD
 
 # lecture fichier xml 
