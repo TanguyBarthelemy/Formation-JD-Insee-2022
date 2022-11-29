@@ -1,6 +1,6 @@
 ---
-name: [Question] Packages R
-about: Créer une question
+name: Packages R
+about: Poser une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

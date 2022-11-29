@@ -1,6 +1,6 @@
 ---
-name: [Question] Effet de calendrier et régresseurs CJO
-about: Créer une question
+name: Effet de calendrier et régresseurs CJO
+about: Poser une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

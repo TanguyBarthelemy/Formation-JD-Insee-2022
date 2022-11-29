@@ -1,6 +1,6 @@
 ---
-name: [Question] Logiciel JDemetra+
-about: Créer une question
+name: Logiciel JDemetra+
+about: Poser une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

@@ -1,6 +1,6 @@
 ---
-name: [Question] Autres sujets
-about: Créer une question
+name: Autres sujets
+about: Poser une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy

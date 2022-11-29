@@ -1,6 +1,6 @@
 ---
-name: [Question] Révisions et options de rafraichissement
-about: Créer une question
+name: Révisions et options de rafraichissement
+about: Poser une question
 title: "[Question]"
 labels: ''
 assignees: TanguyBarthelemy
