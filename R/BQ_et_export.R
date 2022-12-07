@@ -7,9 +7,9 @@
 
 # Import des packages ----------------------------------------------------------
 
-# Package Inseee
+# Package Insee
 library("JDCruncheR")
-# Or library(rjwsacruncher) --> CRAN
+# ou library(rjwsacruncher) --> CRAN
 
 
 # Personnalisation des chemins et des séries -----------------------------------
@@ -183,7 +183,7 @@ score <- extract_score(BQ_auto_score)
 head(score)
 
 
-## Ajouter pondérations --------------------------------------------------------
+## Ajout de pondérations --------------------------------------------------------
 
 # add_indicator : fonction native du cruncher
 BQ_auto_indicator <- add_indicator(BQ_auto_score, POND_NAF4)
@@ -191,7 +191,7 @@ BQ_auto_indicator <- add_indicator(BQ_auto_score, POND_NAF4)
 waldo::compare(BQ_auto_score, BQ_auto_indicator)
 
 
-## Score pondéré ---------------------------------------------------------------
+## Scores pondérés ---------------------------------------------------------------
 
 # weighted score : fonction native du cruncher
 # Voir params : ajoute pond dans le DF values
