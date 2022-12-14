@@ -35,6 +35,25 @@ Il faut installer les packages JDCruncher, RJDemetra, rjwsacruncher, rjdmarkdown
 
 Voilà les codes :
 ```r
-install.packages(c('RJDemetra', 'rjwsacruncher', 'rjdmarkdown', 'ggdemetra', 'gridExtra', 'dplyr', 'zoo', 'tidyr', 'magrittr', 'forecast', 'dygraphs', 'ggplot2', 'xlsx', 'waldo', 'XLConnect', 'XML', 'remotes'))
+install.packages(c('RJDemetra', 'rjwsacruncher', 'rjdmarkdown', 'ggdemetra', 'forecast', 'zoo', 
+                   'magrittr', 'dplyr', 'tidyr', 'ggplot2', 'dygraphs', 'gridExtra', 
+                   'XLConnect', 'xlsx, 'XML', 'remotes', 'waldo'))
 remotes::install_github("InseeFr/JDCruncheR")
 ```
+
+## Comment poser une question ?
+
+Pour poser une question, vous pouvez nous envoyer un mail à Anna (anna.smyk@insee.fr) et moi (tanguy.barthelemy@insee.fr) ou compléter une issue directement sur Github.
+Pour compléter une issue, il suffit de :
+
+1. Se rendre dans l'onglet *Issues* :
+![plot](https://github.com/TanguyBarthelemy/Formations-JD-Insee-2022/blob/main/img/issue_panel.png?raw=true)
+2. Cliquer sur *New issue* :
+![plot](https://github.com/TanguyBarthelemy/Formations-JD-Insee-2022/blob/main/img/create_issue.png?raw=true)
+3. Choisir un des thèmes proposés dans la liste et cliquer sur *Get started* :
+![plot](https://github.com/TanguyBarthelemy/Formations-JD-Insee-2022/blob/main/img/choose_issue.png?raw=true)
+4. Remplir la question avec un titre et un texte pour expliquer le problème ou la question et cliquer sur *Submit new issue* :
+![plot](https://github.com/TanguyBarthelemy/Formations-JD-Insee-2022/blob/main/img/complete_issue.png?raw=true)
+
+Voilà et merci !
+
