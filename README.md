@@ -1,4 +1,4 @@
-# Formations-JD-Insee-2022
+# Formations JDemetra+ Insee 2022
 
 ## Présentation et installation
 Voici les supports, codes et data utilisés pour la formation. Pour obtenir ces documents :
