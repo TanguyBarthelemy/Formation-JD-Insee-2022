@@ -35,9 +35,9 @@ Il faut installer les packages JDCruncher, RJDemetra, rjwsacruncher, rjdmarkdown
 
 Voilà les codes :
 ```r
-install.packages(c('RJDemetra', 'rjwsacruncher', 'rjdmarkdown', 'ggdemetra', 'forecast', 'zoo', 
-                   'magrittr', 'dplyr', 'tidyr', 'ggplot2', 'dygraphs', 'gridExtra', 
-                   'XLConnect', 'xlsx, 'XML', 'remotes', 'waldo'))
+install.packages(c("RJDemetra", "rjwsacruncher", "rjdmarkdown", "ggdemetra", "forecast", "zoo", 
+                   "magrittr", "dplyr", "tidyr", "ggplot2", "dygraphs", "gridExtra", 
+                   "XLConnect", "xlsx", "XML", "remotes", "waldo"))
 remotes::install_github("InseeFr/JDCruncheR")
 ```
 
