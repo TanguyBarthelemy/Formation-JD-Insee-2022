@@ -6,7 +6,7 @@
 
 # Définition des paramètres ----------------------------------------------------
 
-chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-2022-main/"
+chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-main/"
 
 chemin_donnees <- paste0(chemin_du_dossier, "data/IPI_nace4.csv")
 
