@@ -2,15 +2,18 @@
 
 ## Présentation et installation
 Voici les supports, codes et data utilisés pour la formation. Pour obtenir ces documents :
+
  - Soit vous les téléchargez avec en .zip avec le bouton `Code` puis les dézippez dans un dossier sur votre ordinateur
  ![plot](https://github.com/TanguyBarthelemy/Formations-JD-Insee/blob/main/img/code_button.png?raw=true)
  - Soit vous pouvez directement cloner le répertoire entier avec `git clone https://github.com/TanguyBarthelemy/Formations-JD-Insee.git` *via* Rstudio ou la console Git par exemple. 
 
 ## Utiliser les supports
 Une fois le répertoire sur votre ordinateur :
+
  * les documents, slides et WS sont accessibles en ouvrant le dossier et les différents éléments directement.
  * Concernant le code, je conseille fortement d'ouvrir le projet *via* Rstudio en ouvrant le fichier **Formations-JD-Insee.Rproj**.
  * Sinon (dans le cas où vous ouvrez les fichiers R sans avoir au préalable ouvert le .Rproj), il faut penser à changer la localisation du dossier de travail (le working directory). Ainsi, il faut rajouter en début de code :
+ 
 ```r
 setwd("C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-main/")
 ```
