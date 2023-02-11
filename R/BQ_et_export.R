@@ -9,7 +9,7 @@
 
 # Package Insee
 library("JDCruncheR")
-# ou library(rjwsacruncher) --> CRAN
+# ou library("rjwsacruncher") --> CRAN
 
 
 # Personnalisation des chemins et des séries -----------------------------------
