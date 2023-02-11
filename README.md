@@ -14,13 +14,14 @@ Une fois le répertoire sur votre ordinateur :
 
 * les documents, slides et WS sont accessibles en ouvrant le dossier et les différents éléments directement.
 * Concernant le code, je conseille fortement d'ouvrir le projet *via* Rstudio en ouvrant le fichier **Formations-JD-Insee.Rproj**.
-* Sinon (dans le cas où vous ouvrez les fichiers R sans avoir au préalable ouvert le .Rproj), il faut penser à changer la localisation du dossier de travail (le working directory). Ainsi, il faut rajouter en début de code :
- 
-```r
-setwd("C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-main/")
-```
+* Sinon (dans le cas où vous ouvrez les fichiers R sans avoir au préalable ouvert le .Rproj), il faut penser à changer la localisation du dossier de travail (le working directory).
+    Ainsi, il faut rajouter en début de code :
 
-⚠️ Sans oublier de remplacer les `\` par des `/` !
+    ```r
+    setwd("C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-JD-Insee-main/")
+    ```
+
+    ⚠️ Sans oublier de remplacer les `\` par des `/` !
 
 ## Utiliser les WS
 ⚠️ Dans tous les cas, les datas des WS (dossier data) ont été déplacés et les chemins doivent être modifiés ! 
