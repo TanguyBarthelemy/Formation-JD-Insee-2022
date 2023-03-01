@@ -226,8 +226,8 @@ model_sa_x13_2 <- x13(serie_brute, spec = spec_2)
 # Changer le modèle ARIMA à partir de la spec_1
 # On impose les ordres (1, d, 1)(0, D, 1), 
 # Certains coefficients sont fixés : 
-#   - ar(1) est "arima.p = -0.8" 
-#   - ma(1) est "arima.q = -0.6"
+#   - ar(1) est "arima.p = -.8" 
+#   - ma(1) est "arima.q = -.6"
 # L'ordre saisonnier = 0
 # Le coefficient de la moyenne mobile saisonnière ma(1) ("arima.bq = 1) n'est 
 # pas fixé par l'utilisateur ("Undefined")
@@ -235,7 +235,7 @@ spec_3 <- x13_spec(spec = spec_1, automdl.enabled = FALSE,
                    arima.p = 1, arima.q = 1, 
                    arima.bp = 0, arima.bq = 1, 
                    arima.coefEnabled = TRUE, 
-                   arima.coef = c(-0.8, -0.6, 0), # 0 stands for not fixed 
+                   arima.coef = c(-.8, -.6, 0), # 0 stands for not fixed 
                    arima.coefType = c(rep("Fixed", 2), "Undefined"))
 
 
@@ -406,12 +406,12 @@ enhanced_plot <- ipi_RF2740_plot +
     geom_outlier(geom = "label_repel", 
                  vjust = 4, 
                  ylim = c(NA, 65), force = 10, 
-                 arrow = arrow(length = unit(0.03, "npc"), 
+                 arrow = arrow(length = unit(.03, "npc"), 
                                type = "closed", ends = "last")) + 
     # Ajout du modèle Arima
     geom_arima(geom = "label", 
                x_arima = -Inf, y_arima = -Inf, 
-               vjust = -1, hjust = -0.1, 
+               vjust = -1, hjust = -.1, 
                message = FALSE)
 
 enhanced_plot
