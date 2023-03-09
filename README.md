@@ -1,6 +1,6 @@
 # Formations JDemetra+ Insee
 
-## Présentation et installation
+## 👉 Présentation et installation
 Voici les supports, codes et data utilisés pour la formation. Pour obtenir ces documents :
 
 - Soit vous les téléchargez avec en .zip avec le bouton `Code` puis `Download ZIP` et les dézippez dans un dossier sur votre ordinateur
@@ -37,7 +37,7 @@ Une fois le chemin changé, vous pouvez faire tourner le programme en entier (`C
 
 Si vous souhaiter uniquement utiliser vos données la section précédente n'est pas utile.
 
-## Les packages à installer
+## ®️ Les packages à installer
 
 Il faut installer les packages **JDCruncheR**, **RJDemetra**, **rjwsacruncher**, **rjdmarkdown**, **ggdemetra**, **gridExtra**, **dplyr**, **zoo**, **tidyr**, **magrittr**, **forecast**, **dygraphs**, **ggplot2**, **xlsx**, **waldo**, **XLConnect**, **XML**, **remotes**.
 
@@ -49,7 +49,7 @@ install.packages(c("RJDemetra", "rjwsacruncher", "rjdmarkdown", "ggdemetra", "fo
 remotes::install_github("InseeFr/JDCruncheR")
 ```
 
-## Comment poser une question ?
+## 🙋 Comment poser une question ?
 
 Pour poser une question, vous pouvez nous envoyer un mail à Anna (anna.smyk@insee.fr) et moi (tanguy.barthelemy@insee.fr) ou compléter une issue directement sur Github.
 Pour compléter une issue, il suffit de :
@@ -72,3 +72,11 @@ Pour compléter une issue, il suffit de :
 
 Voilà et merci !
 
+## 🌐 Réseaux :
+
+- 🖥️ GitHub Tanguy: https://github.com/TanguyBarthelemy
+- 👨‍💻 GitHub Anna: https://github.com/annasmyk
+- 🏢 Symphonie (intranet Insee)
+- ▶️ [Youtube](https://www.youtube.com/@TSwithJDemetraandR)
+- 📚 Biblio: https://jdemetra-new-documentation.netlify.app/
+- 📝 Blog: https://jdemetra-universe-blog.netlify.app/
