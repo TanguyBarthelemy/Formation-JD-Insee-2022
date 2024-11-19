@@ -35,7 +35,7 @@ chemin_du_dossier <- "C:/Users/Tanguy/Documents/.../Votre_chemin/.../Formations-
 ```
 Une fois le chemin changé, vous pouvez faire tourner le programme en entier (`Ctrl + A` puis `Ctrl + Enter`).
 
-Si vous souhaiter uniquement utiliser vos données la section précédente n'est pas utile.
+Si vous souhaitez uniquement utiliser vos données la section précédente n'est pas utile.
 
 ## ®️ Les packages à installer
 
