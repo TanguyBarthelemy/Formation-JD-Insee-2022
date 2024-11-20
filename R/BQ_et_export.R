@@ -1,15 +1,21 @@
 
 ################################################################################
-##################         Bilan qualité avec crunhcer        ##################
+##################         Bilan qualité avec le crunchcer        ##################
 ################################################################################
 
-# Exemple de bilan qualité avec cruncher sur Worskspace WS_fixed_model.xml
 
 # Import des packages ----------------------------------------------------------
 
 # Package Insee
+library("rjwsacruncher")
 library("JDCruncheR")
-# ou library("rjwsacruncher") --> CRAN
+
+# Attention : JD cruncher ne permet plus de cruncher le WS (utiliser rjwsacruncher)
+# JDCruncher se limite aux fonctions de production du bilan qualité 
+# à partir du fichier demetra_m.csv
+
+# les deux packages sont sur le CRAN
+
 
 
 # Personnalisation des chemins et des séries -----------------------------------
@@ -161,14 +167,14 @@ POND_NAF4 <- POND_NAF4[order(POND_NAF4$pond, decreasing = TRUE), ]
 
 
 # Utilisation du cruncher ------------------------------------------------------
-
-JDCruncheR::cruncher_and_param(workspace = path_xml,
+# Attention : JD cruncher ne contient plus cette fonction 
+rjwsacruncher::cruncher_and_param(workspace = path_xml,
                    rename_multi_documents = FALSE, 
                    delete_existing_file = TRUE, 
                    policy = "complete",
                    csv_layout = "vtable", 
                    log_file = "log.txt")
-# rjwsacruncher::cruncher_and_param()
+
 
 
 # Bilan qualité ----------------------------------------------------------------
