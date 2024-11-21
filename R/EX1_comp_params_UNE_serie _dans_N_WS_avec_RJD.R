@@ -356,44 +356,23 @@ if (!file.exists("output")) {
 
 #### Export rapide : dernières valeurs et graphiques 
 
-# 1 N les denieres annees 
-df_v<-extended_ws_df[extended_ws_df$date>="2020-01-01",]
-## ordonner variables (confort visuel ?)
+# 1 les N denieres annees 
+df_s<-extended_ws_df[extended_ws_df$date>="2020-01-01",]
+## ordonner variables (confort visuel)
+df_v <- df_s |> select(date,y_old,sa_new, sa_old, s_new,s_old, y_lin_old,y_lin_old,
+                    ev_y_old,ev_sa_old,ev_sa_new)
 
-
+str(df_v)
+View(df_v)
+df_v1<-df_v[,-1]
 # transposée (confort visuel ?)
 t_df_v<-as.data.frame(t(df_v1))
-# t_df3
-# on renomme les colonnes et on enleve 1ere ligne redondante
-colnames(t_df_v)<-df_v$date
-t_dfv<-t_df_v[-1,]
-str(t_df)
+str(t_df_v)
 View(t_df_v)
 
-
-# exports
-# mise en forme : pb largeur cellule + numerique 
-# melange variables (reordonner)
-# date
-# y_old
-# sa_old
-# t_old
-# s_old
-# i_old
-# cal_old
-# y_lin_old
-# ev_y_old
-# ev_sa_old
-# y_new
-# sa_new
-# t_new
-# s_new
-# i_new
-# cal_new
-# y_lin_new
-# ev_y_new
-# ev_sa_new
-
+# on renomme les colonnes et on enleve 1ere ligne redondante + format numerique 
+colnames(t_df_v)<-df_v$date
+View(t_df_v)
 
 ch_out1 <-paste0("./output/",serie_a_exp,"_old_vs_new.xlsx")
 ch_out1
@@ -426,7 +405,7 @@ ggplot(data_to_plot, aes(x = date, y = ev, colour = WS)) +
 
 # 
 # 
-# ################# exports PLUS COMPLETS
+# ################# autres exemples d'exports 
 # 
 # ## Export : un fichier par WS ------------------------------------------
 # 
