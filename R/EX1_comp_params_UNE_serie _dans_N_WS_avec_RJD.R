@@ -50,7 +50,7 @@ library("zoo")
 # Personnalisation des chemins et des séries -----------------------------------
 
 # Série à expertiser (même nom que dans les WorkSpaces)
-serie_a_exp <- "RF3030"
+serie_a_exp <- "RF1073"
 
 # W1: Workspace auquel on compare (automatique par exemple) 
 ch_1 <- "./WS/industrie_old.xml" # series de l'ipi 
@@ -362,15 +362,11 @@ df_s<-extended_ws_df[extended_ws_df$date>="2020-01-01",]
 df_v <- df_s |> select(date,y_old,sa_new, sa_old, s_new,s_old, y_lin_old,y_lin_old,
                     ev_y_old,ev_sa_old,ev_sa_new)
 
-str(df_v)
-View(df_v)
-df_v1<-df_v[,-1]
+df_v1<-df_v[,-1] #on enleve 1ere ligne redondante + format numerique 
 # transposée (confort visuel ?)
 t_df_v<-as.data.frame(t(df_v1))
 str(t_df_v)
-View(t_df_v)
-
-# on renomme les colonnes et on enleve 1ere ligne redondante + format numerique 
+# on renomme les colonnes 
 colnames(t_df_v)<-df_v$date
 View(t_df_v)
 

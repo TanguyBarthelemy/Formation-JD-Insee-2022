@@ -3,7 +3,7 @@
     <item name="metadata">
         <subset>
             <item name="timestamp">
-                <string>19 nov. 2024, 14:56:51</string>
+                <string>21 nov. 2024, 15:09:26</string>
             </item>
         </subset>
     </item>
@@ -5626,110 +5626,7 @@
                             </item>
                             <item name="seasonalma">
 <strings>
-    <items>Msr</items>
-</strings>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="benchmarking">
-                        <subset/>
-                    </item>
-                </subset>
-            </item>
-            <item name="estimationspec">
-                <subset>
-                    <item name="algorithm">
-                        <method version="0.1.0.0">
-                            <name>x13</name>
-                            <family>Seasonal adjustment</family>
-                        </method>
-                    </item>
-                    <item name="regarima">
-                        <subset>
-                            <item name="algorithm">
-<method version="0.1.0.0">
-    <name>regarima</name>
-    <family>Modelling</family>
-</method>
-                            </item>
-                            <item name="transform">
-<subset>
-    <item name="function">
-        <string>Auto</string>
-    </item>
-</subset>
-                            </item>
-                            <item name="arima">
-<subset>
-    <item name="theta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-    <item name="btheta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-</subset>
-                            </item>
-                            <item name="automdl">
-<subset>
-    <item name="enabled">
-        <boolean>true</boolean>
-    </item>
-</subset>
-                            </item>
-                            <item name="outlier">
-<subset>
-    <item name="ao">
-        <double>0.0</double>
-    </item>
-    <item name="ls">
-        <double>0.0</double>
-    </item>
-    <item name="tc">
-        <double>0.0</double>
-    </item>
-</subset>
-                            </item>
-                            <item name="esimate">
-<subset>
-    <item name="span">
-        <span>
-            <from>2012-01-01</from>
-        </span>
-    </item>
-</subset>
-                            </item>
-                            <item name="regression">
-<subset>
-    <item name="tradingdays">
-        <subset>
-            <item name="autoadjust">
-                <boolean>false</boolean>
-            </item>
-            <item name="user">
-                <strings>
-                    <items>r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
-                </strings>
-            </item>
-        </subset>
-    </item>
-    <item name="outliers">
-        <strings>
-            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01</items>
-        </strings>
-    </item>
-</subset>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="x11">
-                        <subset>
-                            <item name="seasonalma">
-<strings>
-    <items>Msr</items>
+    <items>Msr Msr Msr Msr Msr S3X1 S3X1 Msr Msr Msr Msr Msr</items>
 </strings>
                             </item>
                         </subset>
@@ -5740,10 +5637,10 @@
                 </subset>
             </item>
             <item name="quality">
-                <string>Severe</string>
+                <string>Good</string>
             </item>
             <item name="policy">
-                <string>Complete</string>
+                <string>Interactive</string>
             </item>
         </subset>
     </item>
@@ -9791,7 +9688,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -10038,7 +9935,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec39</string>
+                <string>spec40</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -10311,7 +10208,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec40</string>
+                <string>spec41</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -10587,7 +10484,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec41</string>
+                <string>spec42</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -10846,7 +10743,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec42</string>
+                <string>spec43</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -11116,7 +11013,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec43</string>
+                <string>spec44</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -11375,7 +11272,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec44</string>
+                <string>spec45</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -11650,7 +11547,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec45</string>
+                <string>spec46</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -12132,7 +12029,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec46</string>
+                <string>spec47</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -12366,7 +12263,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec47</string>
+                <string>spec48</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -12603,7 +12500,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec48</string>
+                <string>spec49</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -12844,7 +12741,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec49</string>
+                <string>spec50</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -13302,7 +13199,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec50</string>
+                <string>spec51</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -13547,7 +13444,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec51</string>
+                <string>spec52</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -13817,7 +13714,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec52</string>
+                <string>spec53</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -14098,7 +13995,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -14347,7 +14244,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec53</string>
+                <string>spec54</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -14596,7 +14493,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec54</string>
+                <string>spec55</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -14871,7 +14768,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec55</string>
+                <string>spec56</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -15329,7 +15226,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec56</string>
+                <string>spec57</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -15583,7 +15480,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec57</string>
+                <string>spec58</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -15845,7 +15742,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec58</string>
+                <string>spec59</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -16107,7 +16004,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec59</string>
+                <string>spec60</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -16362,7 +16259,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec60</string>
+                <string>spec61</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -16626,7 +16523,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec61</string>
+                <string>spec62</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -16883,7 +16780,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec62</string>
+                <string>spec63</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -17138,7 +17035,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec63</string>
+                <string>spec64</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -17467,7 +17364,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec64</string>
+                <string>spec65</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -17720,7 +17617,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec65</string>
+                <string>spec66</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -17948,7 +17845,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec66</string>
+                <string>spec67</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -18189,7 +18086,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec67</string>
+                <string>spec68</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -18478,7 +18375,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -18745,7 +18642,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec68</string>
+                <string>spec69</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -18996,7 +18893,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec69</string>
+                <string>spec70</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -19268,7 +19165,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec70</string>
+                <string>spec71</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -19492,7 +19389,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec71</string>
+                <string>spec72</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -19753,7 +19650,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec72</string>
+                <string>spec73</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -20000,7 +19897,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec73</string>
+                <string>spec74</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -20271,7 +20168,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec74</string>
+                <string>spec75</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -20528,7 +20425,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec75</string>
+                <string>spec76</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -20803,7 +20700,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec76</string>
+                <string>spec77</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -21049,7 +20946,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec77</string>
+                <string>spec78</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -21342,7 +21239,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec78</string>
+                <string>spec79</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -21583,7 +21480,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec79</string>
+                <string>spec80</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -21838,7 +21735,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec80</string>
+                <string>spec81</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -22089,7 +21986,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec81</string>
+                <string>spec82</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -22361,7 +22258,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec82</string>
+                <string>spec83</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -22623,7 +22520,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec83</string>
+                <string>spec84</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -22859,7 +22756,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec84</string>
+                <string>spec85</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -23355,7 +23252,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec85</string>
+                <string>spec86</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -23629,7 +23526,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec86</string>
+                <string>spec87</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -23898,7 +23795,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec87</string>
+                <string>spec88</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -24151,7 +24048,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec88</string>
+                <string>spec89</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -24414,7 +24311,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec89</string>
+                <string>spec90</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -24657,7 +24554,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec53</string>
+                <string>spec54</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -24920,7 +24817,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec90</string>
+                <string>spec91</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -25167,7 +25064,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec91</string>
+                <string>spec92</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -25627,7 +25524,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec92</string>
+                <string>spec93</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -25908,7 +25805,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec93</string>
+                <string>spec94</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -26172,7 +26069,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec94</string>
+                <string>spec95</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -26438,7 +26335,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec95</string>
+                <string>spec96</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -26699,7 +26596,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec96</string>
+                <string>spec97</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -26953,7 +26850,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec97</string>
+                <string>spec98</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -27210,7 +27107,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec98</string>
+                <string>spec99</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -27460,7 +27357,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec99</string>
+                <string>spec100</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -27679,7 +27576,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec100</string>
+                <string>spec101</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -27971,7 +27868,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec101</string>
+                <string>spec102</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -28201,7 +28098,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec102</string>
+                <string>spec103</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -28446,7 +28343,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec103</string>
+                <string>spec104</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -28706,7 +28603,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec104</string>
+                <string>spec105</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -28947,7 +28844,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec105</string>
+                <string>spec106</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -29200,7 +29097,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec106</string>
+                <string>spec107</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -29424,7 +29321,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec107</string>
+                <string>spec108</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -29690,7 +29587,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec108</string>
+                <string>spec109</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -29940,7 +29837,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec109</string>
+                <string>spec110</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -30167,7 +30064,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec110</string>
+                <string>spec111</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -30437,7 +30334,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec111</string>
+                <string>spec112</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -30933,7 +30830,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec112</string>
+                <string>spec113</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -31199,7 +31096,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec113</string>
+                <string>spec114</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -31471,7 +31368,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec114</string>
+                <string>spec115</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -31741,7 +31638,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec115</string>
+                <string>spec116</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -31962,7 +31859,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec116</string>
+                <string>spec117</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -32217,7 +32114,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec117</string>
+                <string>spec118</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -32496,7 +32393,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec53</string>
+                <string>spec54</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -32741,7 +32638,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec118</string>
+                <string>spec119</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -33028,7 +32925,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec119</string>
+                <string>spec120</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -33296,7 +33193,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec120</string>
+                <string>spec121</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -33594,7 +33491,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec121</string>
+                <string>spec122</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -33815,7 +33712,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec122</string>
+                <string>spec123</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -34084,7 +33981,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec123</string>
+                <string>spec124</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -34327,7 +34224,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec124</string>
+                <string>spec125</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -34572,7 +34469,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec125</string>
+                <string>spec126</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -34808,7 +34705,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -35065,7 +34962,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec126</string>
+                <string>spec127</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -35315,7 +35212,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -35565,7 +35462,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec127</string>
+                <string>spec128</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -35813,7 +35710,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec128</string>
+                <string>spec129</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -36090,7 +35987,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec129</string>
+                <string>spec130</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -36311,7 +36208,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec130</string>
+                <string>spec131</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -36569,7 +36466,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec131</string>
+                <string>spec132</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -36817,7 +36714,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec132</string>
+                <string>spec133</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -37104,7 +37001,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec133</string>
+                <string>spec134</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -37369,7 +37266,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec134</string>
+                <string>spec135</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -37640,7 +37537,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec135</string>
+                <string>spec136</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -37959,7 +37856,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec136</string>
+                <string>spec137</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -38187,7 +38084,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec137</string>
+                <string>spec138</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -38441,7 +38338,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec99</string>
+                <string>spec100</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -38660,7 +38557,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec138</string>
+                <string>spec139</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -38911,7 +38808,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec139</string>
+                <string>spec140</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -39171,7 +39068,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec140</string>
+                <string>spec141</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -39443,7 +39340,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec141</string>
+                <string>spec142</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -39751,7 +39648,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec142</string>
+                <string>spec143</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -40009,7 +39906,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec143</string>
+                <string>spec144</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -40273,7 +40170,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec144</string>
+                <string>spec145</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -40527,7 +40424,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec145</string>
+                <string>spec146</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -40810,7 +40707,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec146</string>
+                <string>spec147</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -41067,7 +40964,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec39</string>
+                <string>spec40</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -41335,7 +41232,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec147</string>
+                <string>spec148</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -41595,7 +41492,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec50</string>
+                <string>spec51</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -41850,7 +41747,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec148</string>
+                <string>spec149</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -42093,7 +41990,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec50</string>
+                <string>spec51</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -42348,7 +42245,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -42601,7 +42498,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec149</string>
+                <string>spec150</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -42844,7 +42741,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec150</string>
+                <string>spec151</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -43101,7 +42998,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec151</string>
+                <string>spec152</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -43336,7 +43233,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec152</string>
+                <string>spec153</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -43590,7 +43487,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec153</string>
+                <string>spec154</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -44066,7 +43963,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec133</string>
+                <string>spec134</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -44539,7 +44436,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec154</string>
+                <string>spec155</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -45036,7 +44933,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec155</string>
+                <string>spec156</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -45296,7 +45193,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec156</string>
+                <string>spec157</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -45565,7 +45462,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec157</string>
+                <string>spec158</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -45822,7 +45719,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec158</string>
+                <string>spec159</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -46075,7 +45972,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec159</string>
+                <string>spec160</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -46347,7 +46244,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec160</string>
+                <string>spec161</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -46613,7 +46510,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec161</string>
+                <string>spec162</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -46875,7 +46772,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec162</string>
+                <string>spec163</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -47129,7 +47026,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec163</string>
+                <string>spec164</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -47203,7 +47100,7 @@
                             </item>
                             <item name="seasonalma">
 <strings>
-    <items>Msr</items>
+    <items>Msr Msr Msr Msr Msr S3X3 S3X3 Msr Msr Msr Msr Msr</items>
 </strings>
                             </item>
                         </subset>
@@ -47240,7 +47137,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec164</string>
+                <string>spec165</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -47510,7 +47407,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec50</string>
+                <string>spec51</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -47784,7 +47681,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec165</string>
+                <string>spec166</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -48069,7 +47966,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec166</string>
+                <string>spec167</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -48337,7 +48234,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec39</string>
+                <string>spec40</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -48586,7 +48483,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec57</string>
+                <string>spec58</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -48840,7 +48737,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec167</string>
+                <string>spec168</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -49133,7 +49030,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec53</string>
+                <string>spec54</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -49382,7 +49279,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec168</string>
+                <string>spec169</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -49624,7 +49521,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec169</string>
+                <string>spec170</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -49902,7 +49799,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec22</string>
+                <string>spec39</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -50146,7 +50043,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec170</string>
+                <string>spec171</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -50392,7 +50289,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec171</string>
+                <string>spec172</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -50699,7 +50596,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec59</string>
+                <string>spec60</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -50973,7 +50870,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec172</string>
+                <string>spec173</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -51250,7 +51147,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec173</string>
+                <string>spec174</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -51528,7 +51425,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec174</string>
+                <string>spec175</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -51797,7 +51694,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec175</string>
+                <string>spec176</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -52139,7 +52036,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec176</string>
+                <string>spec177</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -52391,7 +52288,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec176</string>
+                <string>spec177</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -52643,7 +52540,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec177</string>
+                <string>spec178</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -52874,7 +52771,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec178</string>
+                <string>spec179</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -53108,7 +53005,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec179</string>
+                <string>spec180</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -53376,7 +53273,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec180</string>
+                <string>spec181</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -53639,7 +53536,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec181</string>
+                <string>spec182</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -53893,7 +53790,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec182</string>
+                <string>spec183</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -54160,7 +54057,7 @@
                 </ts>
             </item>
             <item name="domainspec">
-                <string>spec183</string>
+                <string>spec184</string>
             </item>
             <item name="pointspec">
                 <subset>
@@ -56620,7 +56517,7 @@
                         <subset>
                             <item name="seasonalma">
 <strings>
-    <items>Msr</items>
+    <items>Msr Msr Msr Msr Msr S3X1 S3X1 Msr Msr Msr Msr Msr</items>
 </strings>
                             </item>
                         </subset>
@@ -58277,7 +58174,7 @@
             </item>
             <item name="user">
                 <strings>
-                    <items>r.LY</items>
+                    <items>r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
                 </strings>
             </item>
         </subset>
@@ -58380,6 +58277,109 @@
             </item>
             <item name="user">
                 <strings>
+                    <items>r.LY</items>
+                </strings>
+            </item>
+        </subset>
+    </item>
+    <item name="outliers">
+        <strings>
+            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01</items>
+        </strings>
+    </item>
+</subset>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="x11">
+                        <subset>
+                            <item name="seasonalma">
+<strings>
+    <items>Msr</items>
+</strings>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="benchmarking">
+                        <subset/>
+                    </item>
+                </subset>
+            </item>
+            <item name="spec41">
+                <subset>
+                    <item name="algorithm">
+                        <method version="0.1.0.0">
+                            <name>x13</name>
+                            <family>Seasonal adjustment</family>
+                        </method>
+                    </item>
+                    <item name="regarima">
+                        <subset>
+                            <item name="algorithm">
+<method version="0.1.0.0">
+    <name>regarima</name>
+    <family>Modelling</family>
+</method>
+                            </item>
+                            <item name="transform">
+<subset>
+    <item name="function">
+        <string>Auto</string>
+    </item>
+</subset>
+                            </item>
+                            <item name="arima">
+<subset>
+    <item name="theta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+    <item name="btheta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+</subset>
+                            </item>
+                            <item name="automdl">
+<subset>
+    <item name="enabled">
+        <boolean>true</boolean>
+    </item>
+</subset>
+                            </item>
+                            <item name="outlier">
+<subset>
+    <item name="ao">
+        <double>0.0</double>
+    </item>
+    <item name="ls">
+        <double>0.0</double>
+    </item>
+    <item name="tc">
+        <double>0.0</double>
+    </item>
+</subset>
+                            </item>
+                            <item name="esimate">
+<subset>
+    <item name="span">
+        <span>
+            <from>2012-01-01</from>
+        </span>
+    </item>
+</subset>
+                            </item>
+                            <item name="regression">
+<subset>
+    <item name="tradingdays">
+        <subset>
+            <item name="autoadjust">
+                <boolean>false</boolean>
+            </item>
+            <item name="user">
+                <strings>
                     <items>r.REG1_Semaine</items>
                 </strings>
             </item>
@@ -58408,7 +58408,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec41">
+            <item name="spec42">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -58511,7 +58511,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec42">
+            <item name="spec43">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -58614,7 +58614,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec43">
+            <item name="spec44">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -58717,7 +58717,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec44">
+            <item name="spec45">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -58820,7 +58820,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec45">
+            <item name="spec46">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -58923,7 +58923,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec46">
+            <item name="spec47">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59014,7 +59014,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec47">
+            <item name="spec48">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59105,7 +59105,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec48">
+            <item name="spec49">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59196,7 +59196,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec49">
+            <item name="spec50">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59267,109 +59267,6 @@
     <item name="outliers">
         <strings>
             <items>AO.2013-08-01 AO.2019-10-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 LS.2020-11-01 AO.2021-04-01 LS.2022-11-01 TC.2023-03-01</items>
-        </strings>
-    </item>
-</subset>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="x11">
-                        <subset>
-                            <item name="seasonalma">
-<strings>
-    <items>Msr</items>
-</strings>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="benchmarking">
-                        <subset/>
-                    </item>
-                </subset>
-            </item>
-            <item name="spec50">
-                <subset>
-                    <item name="algorithm">
-                        <method version="0.1.0.0">
-                            <name>x13</name>
-                            <family>Seasonal adjustment</family>
-                        </method>
-                    </item>
-                    <item name="regarima">
-                        <subset>
-                            <item name="algorithm">
-<method version="0.1.0.0">
-    <name>regarima</name>
-    <family>Modelling</family>
-</method>
-                            </item>
-                            <item name="transform">
-<subset>
-    <item name="function">
-        <string>Auto</string>
-    </item>
-</subset>
-                            </item>
-                            <item name="arima">
-<subset>
-    <item name="theta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-    <item name="btheta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-</subset>
-                            </item>
-                            <item name="automdl">
-<subset>
-    <item name="enabled">
-        <boolean>true</boolean>
-    </item>
-</subset>
-                            </item>
-                            <item name="outlier">
-<subset>
-    <item name="ao">
-        <double>0.0</double>
-    </item>
-    <item name="ls">
-        <double>0.0</double>
-    </item>
-    <item name="tc">
-        <double>0.0</double>
-    </item>
-</subset>
-                            </item>
-                            <item name="esimate">
-<subset>
-    <item name="span">
-        <span>
-            <from>2012-01-01</from>
-        </span>
-    </item>
-</subset>
-                            </item>
-                            <item name="regression">
-<subset>
-    <item name="tradingdays">
-        <subset>
-            <item name="autoadjust">
-                <boolean>false</boolean>
-            </item>
-            <item name="user">
-                <strings>
-                    <items>r.REG1_Semaine</items>
-                </strings>
-            </item>
-        </subset>
-    </item>
-    <item name="outliers">
-        <strings>
-            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01</items>
         </strings>
     </item>
 </subset>
@@ -59465,14 +59362,14 @@
             </item>
             <item name="user">
                 <strings>
-                    <items>r.LY r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
+                    <items>r.REG1_Semaine</items>
                 </strings>
             </item>
         </subset>
     </item>
     <item name="outliers">
         <strings>
-            <items>AO.2020-03-01 AO.2020-04-01</items>
+            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01</items>
         </strings>
     </item>
 </subset>
@@ -59575,7 +59472,7 @@
     </item>
     <item name="outliers">
         <strings>
-            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2021-08-01 AO.2021-09-01 AO.2021-10-01 AO.2022-08-01</items>
+            <items>AO.2020-03-01 AO.2020-04-01</items>
         </strings>
     </item>
 </subset>
@@ -59597,6 +59494,109 @@
                 </subset>
             </item>
             <item name="spec53">
+                <subset>
+                    <item name="algorithm">
+                        <method version="0.1.0.0">
+                            <name>x13</name>
+                            <family>Seasonal adjustment</family>
+                        </method>
+                    </item>
+                    <item name="regarima">
+                        <subset>
+                            <item name="algorithm">
+<method version="0.1.0.0">
+    <name>regarima</name>
+    <family>Modelling</family>
+</method>
+                            </item>
+                            <item name="transform">
+<subset>
+    <item name="function">
+        <string>Auto</string>
+    </item>
+</subset>
+                            </item>
+                            <item name="arima">
+<subset>
+    <item name="theta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+    <item name="btheta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+</subset>
+                            </item>
+                            <item name="automdl">
+<subset>
+    <item name="enabled">
+        <boolean>true</boolean>
+    </item>
+</subset>
+                            </item>
+                            <item name="outlier">
+<subset>
+    <item name="ao">
+        <double>0.0</double>
+    </item>
+    <item name="ls">
+        <double>0.0</double>
+    </item>
+    <item name="tc">
+        <double>0.0</double>
+    </item>
+</subset>
+                            </item>
+                            <item name="esimate">
+<subset>
+    <item name="span">
+        <span>
+            <from>2012-01-01</from>
+        </span>
+    </item>
+</subset>
+                            </item>
+                            <item name="regression">
+<subset>
+    <item name="tradingdays">
+        <subset>
+            <item name="autoadjust">
+                <boolean>false</boolean>
+            </item>
+            <item name="user">
+                <strings>
+                    <items>r.LY r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
+                </strings>
+            </item>
+        </subset>
+    </item>
+    <item name="outliers">
+        <strings>
+            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2021-08-01 AO.2021-09-01 AO.2021-10-01 AO.2022-08-01</items>
+        </strings>
+    </item>
+</subset>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="x11">
+                        <subset>
+                            <item name="seasonalma">
+<strings>
+    <items>Msr</items>
+</strings>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="benchmarking">
+                        <subset/>
+                    </item>
+                </subset>
+            </item>
+            <item name="spec54">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59699,7 +59699,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec54">
+            <item name="spec55">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59802,7 +59802,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec55">
+            <item name="spec56">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59893,7 +59893,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec56">
+            <item name="spec57">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -59996,7 +59996,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec57">
+            <item name="spec58">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60099,7 +60099,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec58">
+            <item name="spec59">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60202,7 +60202,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec59">
+            <item name="spec60">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60305,7 +60305,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec60">
+            <item name="spec61">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60408,7 +60408,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec61">
+            <item name="spec62">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60499,7 +60499,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec62">
+            <item name="spec63">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60602,7 +60602,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec63">
+            <item name="spec64">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60705,7 +60705,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec64">
+            <item name="spec65">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60808,7 +60808,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec65">
+            <item name="spec66">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -60899,7 +60899,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec66">
+            <item name="spec67">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61002,7 +61002,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec67">
+            <item name="spec68">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61105,7 +61105,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec68">
+            <item name="spec69">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61196,7 +61196,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec69">
+            <item name="spec70">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61299,7 +61299,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec70">
+            <item name="spec71">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61390,7 +61390,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec71">
+            <item name="spec72">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61493,7 +61493,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec72">
+            <item name="spec73">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61596,7 +61596,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec73">
+            <item name="spec74">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61699,7 +61699,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec74">
+            <item name="spec75">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61802,7 +61802,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec75">
+            <item name="spec76">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -61905,7 +61905,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec76">
+            <item name="spec77">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62008,7 +62008,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec77">
+            <item name="spec78">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62111,7 +62111,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec78">
+            <item name="spec79">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62214,7 +62214,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec79">
+            <item name="spec80">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62305,7 +62305,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec80">
+            <item name="spec81">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62408,7 +62408,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec81">
+            <item name="spec82">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62511,7 +62511,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec82">
+            <item name="spec83">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62614,7 +62614,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec83">
+            <item name="spec84">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62705,7 +62705,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec84">
+            <item name="spec85">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62808,7 +62808,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec85">
+            <item name="spec86">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -62911,7 +62911,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec86">
+            <item name="spec87">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63014,7 +63014,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec87">
+            <item name="spec88">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63117,7 +63117,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec88">
+            <item name="spec89">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63220,7 +63220,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec89">
+            <item name="spec90">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63311,7 +63311,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec90">
+            <item name="spec91">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63402,7 +63402,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec91">
+            <item name="spec92">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63505,7 +63505,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec92">
+            <item name="spec93">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63608,7 +63608,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec93">
+            <item name="spec94">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63711,7 +63711,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec94">
+            <item name="spec95">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63814,7 +63814,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec95">
+            <item name="spec96">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -63917,7 +63917,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec96">
+            <item name="spec97">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64020,7 +64020,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec97">
+            <item name="spec98">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64111,7 +64111,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec98">
+            <item name="spec99">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64214,7 +64214,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec99">
+            <item name="spec100">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64305,7 +64305,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec100">
+            <item name="spec101">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64408,7 +64408,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec101">
+            <item name="spec102">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64499,7 +64499,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec102">
+            <item name="spec103">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64590,7 +64590,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec103">
+            <item name="spec104">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64693,7 +64693,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec104">
+            <item name="spec105">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64784,7 +64784,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec105">
+            <item name="spec106">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64875,7 +64875,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec106">
+            <item name="spec107">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -64946,109 +64946,6 @@
     <item name="outliers">
         <strings>
             <items>AO.2013-12-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2020-07-01</items>
-        </strings>
-    </item>
-</subset>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="x11">
-                        <subset>
-                            <item name="seasonalma">
-<strings>
-    <items>Msr</items>
-</strings>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="benchmarking">
-                        <subset/>
-                    </item>
-                </subset>
-            </item>
-            <item name="spec107">
-                <subset>
-                    <item name="algorithm">
-                        <method version="0.1.0.0">
-                            <name>x13</name>
-                            <family>Seasonal adjustment</family>
-                        </method>
-                    </item>
-                    <item name="regarima">
-                        <subset>
-                            <item name="algorithm">
-<method version="0.1.0.0">
-    <name>regarima</name>
-    <family>Modelling</family>
-</method>
-                            </item>
-                            <item name="transform">
-<subset>
-    <item name="function">
-        <string>Auto</string>
-    </item>
-</subset>
-                            </item>
-                            <item name="arima">
-<subset>
-    <item name="theta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-    <item name="btheta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-</subset>
-                            </item>
-                            <item name="automdl">
-<subset>
-    <item name="enabled">
-        <boolean>true</boolean>
-    </item>
-</subset>
-                            </item>
-                            <item name="outlier">
-<subset>
-    <item name="ao">
-        <double>0.0</double>
-    </item>
-    <item name="ls">
-        <double>0.0</double>
-    </item>
-    <item name="tc">
-        <double>0.0</double>
-    </item>
-</subset>
-                            </item>
-                            <item name="esimate">
-<subset>
-    <item name="span">
-        <span>
-            <from>2012-01-01</from>
-        </span>
-    </item>
-</subset>
-                            </item>
-                            <item name="regression">
-<subset>
-    <item name="tradingdays">
-        <subset>
-            <item name="autoadjust">
-                <boolean>false</boolean>
-            </item>
-            <item name="user">
-                <strings>
-                    <items>r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
-                </strings>
-            </item>
-        </subset>
-    </item>
-    <item name="outliers">
-        <strings>
-            <items>AO.2020-04-01 AO.2020-05-01 AO.2021-09-01 AO.2021-12-01</items>
         </strings>
     </item>
 </subset>
@@ -65151,7 +65048,7 @@
     </item>
     <item name="outliers">
         <strings>
-            <items>AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2020-12-01 AO.2022-12-01</items>
+            <items>AO.2020-04-01 AO.2020-05-01 AO.2021-09-01 AO.2021-12-01</items>
         </strings>
     </item>
 </subset>
@@ -65173,6 +65070,109 @@
                 </subset>
             </item>
             <item name="spec109">
+                <subset>
+                    <item name="algorithm">
+                        <method version="0.1.0.0">
+                            <name>x13</name>
+                            <family>Seasonal adjustment</family>
+                        </method>
+                    </item>
+                    <item name="regarima">
+                        <subset>
+                            <item name="algorithm">
+<method version="0.1.0.0">
+    <name>regarima</name>
+    <family>Modelling</family>
+</method>
+                            </item>
+                            <item name="transform">
+<subset>
+    <item name="function">
+        <string>Auto</string>
+    </item>
+</subset>
+                            </item>
+                            <item name="arima">
+<subset>
+    <item name="theta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+    <item name="btheta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+</subset>
+                            </item>
+                            <item name="automdl">
+<subset>
+    <item name="enabled">
+        <boolean>true</boolean>
+    </item>
+</subset>
+                            </item>
+                            <item name="outlier">
+<subset>
+    <item name="ao">
+        <double>0.0</double>
+    </item>
+    <item name="ls">
+        <double>0.0</double>
+    </item>
+    <item name="tc">
+        <double>0.0</double>
+    </item>
+</subset>
+                            </item>
+                            <item name="esimate">
+<subset>
+    <item name="span">
+        <span>
+            <from>2012-01-01</from>
+        </span>
+    </item>
+</subset>
+                            </item>
+                            <item name="regression">
+<subset>
+    <item name="tradingdays">
+        <subset>
+            <item name="autoadjust">
+                <boolean>false</boolean>
+            </item>
+            <item name="user">
+                <strings>
+                    <items>r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
+                </strings>
+            </item>
+        </subset>
+    </item>
+    <item name="outliers">
+        <strings>
+            <items>AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2020-12-01 AO.2022-12-01</items>
+        </strings>
+    </item>
+</subset>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="x11">
+                        <subset>
+                            <item name="seasonalma">
+<strings>
+    <items>Msr</items>
+</strings>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="benchmarking">
+                        <subset/>
+                    </item>
+                </subset>
+            </item>
+            <item name="spec110">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65263,7 +65263,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec110">
+            <item name="spec111">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65366,7 +65366,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec111">
+            <item name="spec112">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65457,7 +65457,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec112">
+            <item name="spec113">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65560,7 +65560,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec113">
+            <item name="spec114">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65663,7 +65663,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec114">
+            <item name="spec115">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65766,7 +65766,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec115">
+            <item name="spec116">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65857,7 +65857,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec116">
+            <item name="spec117">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -65960,7 +65960,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec117">
+            <item name="spec118">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66063,7 +66063,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec118">
+            <item name="spec119">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66166,7 +66166,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec119">
+            <item name="spec120">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66257,7 +66257,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec120">
+            <item name="spec121">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66360,7 +66360,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec121">
+            <item name="spec122">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66451,7 +66451,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec122">
+            <item name="spec123">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66554,7 +66554,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec123">
+            <item name="spec124">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66645,7 +66645,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec124">
+            <item name="spec125">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66748,7 +66748,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec125">
+            <item name="spec126">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66839,7 +66839,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec126">
+            <item name="spec127">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -66942,7 +66942,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec127">
+            <item name="spec128">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67033,7 +67033,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec128">
+            <item name="spec129">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67136,7 +67136,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec129">
+            <item name="spec130">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67207,109 +67207,6 @@
     <item name="outliers">
         <strings>
             <items>AO.2020-04-01</items>
-        </strings>
-    </item>
-</subset>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="x11">
-                        <subset>
-                            <item name="seasonalma">
-<strings>
-    <items>Msr</items>
-</strings>
-                            </item>
-                        </subset>
-                    </item>
-                    <item name="benchmarking">
-                        <subset/>
-                    </item>
-                </subset>
-            </item>
-            <item name="spec130">
-                <subset>
-                    <item name="algorithm">
-                        <method version="0.1.0.0">
-                            <name>x13</name>
-                            <family>Seasonal adjustment</family>
-                        </method>
-                    </item>
-                    <item name="regarima">
-                        <subset>
-                            <item name="algorithm">
-<method version="0.1.0.0">
-    <name>regarima</name>
-    <family>Modelling</family>
-</method>
-                            </item>
-                            <item name="transform">
-<subset>
-    <item name="function">
-        <string>Auto</string>
-    </item>
-</subset>
-                            </item>
-                            <item name="arima">
-<subset>
-    <item name="theta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-    <item name="btheta">
-        <params>
-            <coef/>
-        </params>
-    </item>
-</subset>
-                            </item>
-                            <item name="automdl">
-<subset>
-    <item name="enabled">
-        <boolean>true</boolean>
-    </item>
-</subset>
-                            </item>
-                            <item name="outlier">
-<subset>
-    <item name="ao">
-        <double>0.0</double>
-    </item>
-    <item name="ls">
-        <double>0.0</double>
-    </item>
-    <item name="tc">
-        <double>0.0</double>
-    </item>
-</subset>
-                            </item>
-                            <item name="esimate">
-<subset>
-    <item name="span">
-        <span>
-            <from>2012-01-01</from>
-        </span>
-    </item>
-</subset>
-                            </item>
-                            <item name="regression">
-<subset>
-    <item name="tradingdays">
-        <subset>
-            <item name="autoadjust">
-                <boolean>false</boolean>
-            </item>
-            <item name="user">
-                <strings>
-                    <items>r.REG1_Semaine</items>
-                </strings>
-            </item>
-        </subset>
-    </item>
-    <item name="outliers">
-        <strings>
-            <items>LS.2019-01-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-11-01 SO.2023-05-01</items>
         </strings>
     </item>
 </subset>
@@ -67412,7 +67309,7 @@
     </item>
     <item name="outliers">
         <strings>
-            <items>AO.2016-12-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01</items>
+            <items>LS.2019-01-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-11-01 SO.2023-05-01</items>
         </strings>
     </item>
 </subset>
@@ -67508,14 +67405,14 @@
             </item>
             <item name="user">
                 <strings>
-                    <items>r.LY r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
+                    <items>r.REG1_Semaine</items>
                 </strings>
             </item>
         </subset>
     </item>
     <item name="outliers">
         <strings>
-            <items>LS.2017-02-01 AO.2019-04-01 AO.2019-08-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2020-08-01 AO.2020-10-01 AO.2020-11-01 AO.2021-02-01 AO.2021-03-01 AO.2021-04-01 AO.2021-07-01 AO.2021-08-01</items>
+            <items>AO.2016-12-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01</items>
         </strings>
     </item>
 </subset>
@@ -67618,7 +67515,7 @@
     </item>
     <item name="outliers">
         <strings>
-            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01</items>
+            <items>LS.2017-02-01 AO.2019-04-01 AO.2019-08-01 AO.2020-03-01 AO.2020-04-01 AO.2020-05-01 AO.2020-06-01 AO.2020-08-01 AO.2020-10-01 AO.2020-11-01 AO.2021-02-01 AO.2021-03-01 AO.2021-04-01 AO.2021-07-01 AO.2021-08-01</items>
         </strings>
     </item>
 </subset>
@@ -67640,6 +67537,109 @@
                 </subset>
             </item>
             <item name="spec134">
+                <subset>
+                    <item name="algorithm">
+                        <method version="0.1.0.0">
+                            <name>x13</name>
+                            <family>Seasonal adjustment</family>
+                        </method>
+                    </item>
+                    <item name="regarima">
+                        <subset>
+                            <item name="algorithm">
+<method version="0.1.0.0">
+    <name>regarima</name>
+    <family>Modelling</family>
+</method>
+                            </item>
+                            <item name="transform">
+<subset>
+    <item name="function">
+        <string>Auto</string>
+    </item>
+</subset>
+                            </item>
+                            <item name="arima">
+<subset>
+    <item name="theta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+    <item name="btheta">
+        <params>
+            <coef/>
+        </params>
+    </item>
+</subset>
+                            </item>
+                            <item name="automdl">
+<subset>
+    <item name="enabled">
+        <boolean>true</boolean>
+    </item>
+</subset>
+                            </item>
+                            <item name="outlier">
+<subset>
+    <item name="ao">
+        <double>0.0</double>
+    </item>
+    <item name="ls">
+        <double>0.0</double>
+    </item>
+    <item name="tc">
+        <double>0.0</double>
+    </item>
+</subset>
+                            </item>
+                            <item name="esimate">
+<subset>
+    <item name="span">
+        <span>
+            <from>2012-01-01</from>
+        </span>
+    </item>
+</subset>
+                            </item>
+                            <item name="regression">
+<subset>
+    <item name="tradingdays">
+        <subset>
+            <item name="autoadjust">
+                <boolean>false</boolean>
+            </item>
+            <item name="user">
+                <strings>
+                    <items>r.LY r.REG5_Lundi r.REG5_Mardi r.REG5_Mercredi r.REG5_Jeudi r.REG5_Vendredi</items>
+                </strings>
+            </item>
+        </subset>
+    </item>
+    <item name="outliers">
+        <strings>
+            <items>AO.2020-03-01 AO.2020-04-01 AO.2020-05-01</items>
+        </strings>
+    </item>
+</subset>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="x11">
+                        <subset>
+                            <item name="seasonalma">
+<strings>
+    <items>Msr</items>
+</strings>
+                            </item>
+                        </subset>
+                    </item>
+                    <item name="benchmarking">
+                        <subset/>
+                    </item>
+                </subset>
+            </item>
+            <item name="spec135">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67742,7 +67742,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec135">
+            <item name="spec136">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67845,7 +67845,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec136">
+            <item name="spec137">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -67936,7 +67936,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec137">
+            <item name="spec138">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68039,7 +68039,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec138">
+            <item name="spec139">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68142,7 +68142,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec139">
+            <item name="spec140">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68245,7 +68245,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec140">
+            <item name="spec141">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68348,7 +68348,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec141">
+            <item name="spec142">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68451,7 +68451,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec142">
+            <item name="spec143">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68554,7 +68554,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec143">
+            <item name="spec144">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68657,7 +68657,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec144">
+            <item name="spec145">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68760,7 +68760,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec145">
+            <item name="spec146">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68863,7 +68863,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec146">
+            <item name="spec147">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -68966,7 +68966,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec147">
+            <item name="spec148">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69069,7 +69069,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec148">
+            <item name="spec149">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69172,7 +69172,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec149">
+            <item name="spec150">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69273,7 +69273,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec150">
+            <item name="spec151">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69376,7 +69376,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec151">
+            <item name="spec152">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69467,7 +69467,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec152">
+            <item name="spec153">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69570,7 +69570,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec153">
+            <item name="spec154">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69673,7 +69673,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec154">
+            <item name="spec155">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69776,7 +69776,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec155">
+            <item name="spec156">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69879,7 +69879,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec156">
+            <item name="spec157">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -69982,7 +69982,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec157">
+            <item name="spec158">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70085,7 +70085,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec158">
+            <item name="spec159">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70188,7 +70188,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec159">
+            <item name="spec160">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70291,7 +70291,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec160">
+            <item name="spec161">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70394,7 +70394,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec161">
+            <item name="spec162">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70497,7 +70497,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec162">
+            <item name="spec163">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70600,7 +70600,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec163">
+            <item name="spec164">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70659,7 +70659,7 @@
                         <subset>
                             <item name="seasonalma">
 <strings>
-    <items>Msr</items>
+    <items>Msr Msr Msr Msr Msr S3X3 S3X3 Msr Msr Msr Msr Msr</items>
 </strings>
                             </item>
                         </subset>
@@ -70669,7 +70669,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec164">
+            <item name="spec165">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70772,7 +70772,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec165">
+            <item name="spec166">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70875,7 +70875,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec166">
+            <item name="spec167">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -70978,7 +70978,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec167">
+            <item name="spec168">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71081,7 +71081,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec168">
+            <item name="spec169">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71184,7 +71184,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec169">
+            <item name="spec170">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71287,7 +71287,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec170">
+            <item name="spec171">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71378,7 +71378,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec171">
+            <item name="spec172">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71481,7 +71481,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec172">
+            <item name="spec173">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71584,7 +71584,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec173">
+            <item name="spec174">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71687,7 +71687,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec174">
+            <item name="spec175">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71790,7 +71790,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec175">
+            <item name="spec176">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71881,7 +71881,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec176">
+            <item name="spec177">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -71972,7 +71972,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec177">
+            <item name="spec178">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72063,7 +72063,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec178">
+            <item name="spec179">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72154,7 +72154,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec179">
+            <item name="spec180">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72257,7 +72257,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec180">
+            <item name="spec181">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72360,7 +72360,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec181">
+            <item name="spec182">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72463,7 +72463,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec182">
+            <item name="spec183">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
@@ -72566,7 +72566,7 @@
                     </item>
                 </subset>
             </item>
-            <item name="spec183">
+            <item name="spec184">
                 <subset>
                     <item name="algorithm">
                         <method version="0.1.0.0">
